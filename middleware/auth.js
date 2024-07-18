@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken';
 import BadRequestError from '../errors/BadRequestError.js';
-import UnAuthorizedError from '../errors/UnauthorizedError.js';
+import UnAuthorizedError from '../errors/UnAuthorizedError.js';
 
 const auth = (req,res,next) => {
     console.log(req.headers.authorization);
